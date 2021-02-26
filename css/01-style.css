@@ -567,7 +567,7 @@ nav{
    }
 }
 
-@media(max-width:370px){
+@media(max-width:320px){
     body{
         font-size: 6px;
     }
@@ -623,4 +623,7 @@ nav{
     .sec-03-recent{
         height: 35em;
     }
+}
+@media(max-width:320px){
+
 }
