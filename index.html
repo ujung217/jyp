@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/01-style.css">
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
 </head>
@@ -16,11 +17,132 @@
 
 
     <section class="section01">
-        <div class="header">
-            <header>
-                <div class="logo">
-                    <a href="#"><img src="images/jyp_white.png" alt="logo"></a>
+        <div class="bullet-container">
+            <div class="right-bullet">
+                <div class="bullet01">
+                    <button class="bullet-button bullet-button01"></button>
+                    <a href="#section01" class="text-area bullet-color01">Home</a>
                 </div>
+            
+                <div class="bullet02">
+                    <button class="bullet-button bullet-button02"></button>
+                    <a href="#section02" class="text-area bullet-color02">About</a>
+                </div>
+            
+                <div class="bullet03">
+                    <button class="bullet-button bullet-button03"></button>
+                    <a href="#section03" class="text-area bullet-color03">Artist</a>
+                </div>
+            
+                <div class="bullet04">
+                    <button class="bullet-button bullet-button04"></button>
+                    <a href="#section04" class="text-area bullet-color04">News</a>
+                </div>
+            
+                <div class="bullet05">
+                    <button class="bullet-button bullet-button05"></button>
+                    <a href="#section05" class="text-area bullet-color05">Audition</a>
+                </div>
+            
+            </div>
+        </div>
+        <script>
+            $(function(){
+                $(window).scroll(function(){
+                    if($(this).scrollTop()>3748){
+                        $(".bullet-container").css("display","block");
+                    } else if($(this).scrollTop()>2500){
+                        $(".bullet-container").css("display","block");
+                    } else if($(this).scrollTop()>1280) {
+                        $(".bullet-container").css("display","block");
+                    } else if($(this).scrollTop()>400){
+                        $(".bullet-container").css("display","block");
+                    } else{
+                        $(".bullet-container").css("display","none");
+
+                    }
+                });
+            });
+    
+            $(function(){
+                $(window).scroll(function(){
+                    if($(this).scrollTop()>3650){
+                        $(".bullet-button").css("background","#fff");
+                        $(".text-area").css("background","#fff");
+                        $(".text-area").css("color","#000");
+                        $(".text-area").css("font-weight","600");
+                        $(".bullet-color05").css("background","#00a4e4");
+                        $(".bullet-color05").css("color","#fff");
+                        $(".bullet-button05").css("background","#00a4e4");
+                    }else{
+                        $(".bullet-button").css("background","#000");
+                        $(".text-area").css("background","#000");
+                        $(".text-area").css("color","#fff");
+                        $(".text-area").css("font-weight","600");
+                        $(".bullet-color05").css("background","#000");
+                        $(".bullet-color05").css("color","#fff");
+                        $(".bullet-button05").css("background","#000");
+                    }
+                });
+            });
+
+            $(function(){
+                $(window).scroll(function(){
+                    if($(this).scrollTop()>3650){
+                        $(".bullet-button04").css("background","#fff");
+                        $(".bullet-color04").css("background","#fff");
+                        $(".bullet-button02").css("background","#fff");
+                        $(".bullet-color04").css("background","#fff");
+                    } else if($(this).scrollTop()>2600){
+                        $(".bullet-button04").css("background","#00a4e4");
+                        $(".bullet-color04").css("background","#00a4e4");
+                        $(".bullet-button02").css("background","#000");
+                        $(".bullet-color02").css("background","#000");
+                    } else if($(this).scrollTop()>1280) {
+                        $(".bullet-button03").css("background","#00a4e4");
+                        $(".bullet-color03").css("background","#00a4e4");
+                        $(".bullet-button01").css("background","#fff");
+                        $(".bullet-color01").css("color","#000");
+                        $(".bullet-color01").css("background","#fff");
+
+                        $(".bullet-button02").css("background","#fff");
+                        $(".bullet-color02").css("color","#000");
+                        $(".bullet-color02").css("background","#fff");
+                        
+                        $(".bullet-button04").css("background","#fff");
+                        $(".bullet-color04").css("color","#000");
+                        $(".bullet-color04").css("background","#fff");
+                        
+                        $(".bullet-button05").css("background","#fff");
+                        $(".bullet-color05").css("color","#000");
+                        $(".bullet-color05").css("background","#fff");
+                    } else if($(this).scrollTop()>400){
+                        $(".bullet-button04").css("background","#000");
+                        $(".bullet-color04").css("background","#000");
+                        $(".bullet-button02").css("background","#00a4e4");
+                        $(".bullet-color02").css("background","#00a4e4");
+                    } else{
+                        $(".bullet-button04").css("background","#000");
+                        $(".bullet-color04").css("background","#000");
+                        $(".bullet-button02").css("background","#000");
+                        $(".bullet-color02").css("background","#000");
+
+                    }
+                });
+            });
+
+        </script>
+        <div class="header">
+            <header class="menu">
+                <div class="logo">
+                    <div class="logo-white">
+                        <a href="#"><img src="images/jyp_white.png" alt="logo"></a>
+                    </div>
+                    <div class="logo-black">
+                        <a href="#"><img src="images/jyp_black.png" alt="logo"></a>
+                    </div>
+                </div>
+                
                 <nav>
                     <ul class="navi">
                         <li><a href="#">home</a></li>
@@ -29,11 +151,30 @@
                         <li><a href="#section04">artist</a></li>
                         <li><a href="#section05">audition</a></li>
                     </ul>
-                </nav>  
+                </nav> 
                 
             </header>
             <div class="clearfix"></div>
         </div>
+        <script>
+            $(function(){
+                $(window).scroll(function(){
+                    if($(this).scrollTop()>3150){
+                        $(".logo-white").css("display","none");
+                        $(".logo-black").css("display","block");
+                    } else if($(this).scrollTop()>1700){
+                        $(".logo-white").css("display","block");
+                        $(".logo-black").css("display","none");
+                    } else if($(this).scrollTop()>800){
+                        $(".logo-white").css("display","none");
+                        $(".logo-black").css("display","block");
+                    } else{
+                        $(".logo-white").css("display","block");
+                        $(".logo-black").css("display","none");
+                    }
+                });
+            });
+        </script>
     <!-- navi end -->
 
     <!-- main-slider -->
@@ -67,6 +208,7 @@
     <!-- section01 end-->
 
     <!-- section02 -->
+    
     <section id="section02" class="section02">
         <div class="container">
             <div class="row">
@@ -272,7 +414,12 @@
 
         <!-- footer -->
     <footer class="footer">
-
+        <p></p>
+        <div class="sns">
+            <i class=""></i>
+            <i class=""></i>
+            <i class=""></i>
+        </div>
     </footer>
 </body>
 </html>

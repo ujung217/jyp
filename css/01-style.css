@@ -13,7 +13,6 @@ body{
     clear: both;
 }
 /* nav  */
-
 header{
     position: absolute;
     width: 95%;
@@ -23,12 +22,22 @@ header .logo img{
     width:20%;
 }
 
-
+.menu{
+    width: 100%;
+    height: 100px;
+    /* background: rgba(0,0,0,0.5); */
+}
 .logo{
     float: left;
     margin-left: 1.875em;
     position: fixed;
     z-index: 999;
+}
+.logo-white{
+    display: block;
+}
+.logo-black{
+    display: none;
 }
 
 nav{
@@ -57,6 +66,262 @@ nav{
 
 /* section 01 end  */
 
+/* --------------bullet start--------------- */
+
+
+.section01 .bullet-container{
+    width: 30px;
+    height: auto;
+    position: fixed;
+    right: 60px;
+    top: 40%;
+    z-index: 999;
+    display: none;
+ }
+ 
+ .section01 .bullet01{
+    float: right;
+    width: 110px;
+    height: 50px;
+ }
+ 
+ 
+ .section01 .bullet01 > button{
+    width: 10px;
+    height: 10px;
+    margin: 20px 0;
+    background: #000;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+    float: right;
+ }
+ 
+ .section01 .bullet01 > a{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 30px;
+    margin-top: 7px;
+    margin-left: -30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 600;
+    display: none;
+    z-index: 10;
+ }
+ 
+ .section01 .bullet-container .right-bullet .bullet01:hover > button{
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+ }
+ .section01 .bullet-container .right-bullet .bullet02:hover > button{
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+ }
+ .section01 .bullet-container .right-bullet .bullet03:hover > button{
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+ }
+ .section01 .bullet-container .right-bullet .bullet04:hover > button{
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+ }
+ .section01 .bullet-container .right-bullet .bullet05:hover > button{
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+ }
+ 
+ 
+ .section01 .bullet-container .right-bullet .bullet01:hover a{
+    display: block;
+ }
+ 
+ .section01 .bullet02{
+    float: right;
+    width: 110px;
+    height: 50px;
+ }
+ 
+ 
+ .section01 .bullet02 > button{
+    width: 10px;
+    height: 10px;
+    margin: 20px 0;
+    background: #000;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+    float: right;
+ }
+ 
+ .section01 .bullet02 > a{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 30px;
+    margin-top: 7px;
+    margin-left: -30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 600;
+    display: none;
+ }
+ 
+ .section01 .bullet-container .right-bullet .bullet02 > button:hover{
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+ }
+ 
+ .section01 .bullet-container .right-bullet .bullet02:hover a{
+    display: block;
+ }
+ 
+ .section01 .bullet03{
+    float: right;
+    width: 110px;
+    height: 50px;
+ }
+ 
+ 
+ .section01 .bullet03 > button{
+    width: 10px;
+    height: 10px;
+    margin: 20px 0;
+    background: #000;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+    float: right;
+ }
+ 
+ .section01 .bullet03 > a{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 30px;
+    margin-top: 7px;
+    margin-left: -30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 600;
+    display: none;
+ }
+ 
+ .section01 .bullet-container .right-bullet .bullet03 > button:hover{
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+ }
+ 
+ .section01 .bullet-container .right-bullet .bullet03:hover a{
+    display: block;
+ }
+ 
+ .section01 .bullet04{
+    float: right;
+    width: 110px;
+    height: 50px;
+ }
+ 
+ 
+ .section01 .bullet04 > button{
+    width: 10px;
+    height: 10px;
+    margin: 20px 0;
+    background: #000;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+    float: right;
+ }
+ 
+ .section01 .bullet04 > a{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 30px;
+    margin-top: 7px;
+    margin-left: -30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 600;
+    display: none;
+ }
+ 
+ .section01 .bullet-container .right-bullet .bullet04 > button:hover{
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+ }
+ 
+ .section01 .bullet-container .right-bullet .bullet04:hover a{
+    display: block;
+ }
+ 
+ .section01 .bullet05{
+    float: right;
+    width: 110px;
+    height: 50px;
+ }
+ 
+ 
+ .section01 .bullet05 > button{
+    width: 10px;
+    height: 10px;
+    margin: 20px 0;
+    background: #000;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+    float: right;
+ }
+ 
+ .section01 .bullet05 > a{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 30px;
+    margin-top: 7px;
+    margin-left: -30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 600;
+    display: none;
+ }
+ 
+ .section01 .bullet-container .right-bullet .bullet05 > button:hover{
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+ }
+ 
+ .section01 .bullet-container .right-bullet .bullet05:hover a{
+    display: block;
+ }
+ 
+ /*---------------- bullet end----------------- */
 
 
 /* section02  */
@@ -354,7 +619,6 @@ nav{
 
 /* footer */
 
-
 /* footer end */
 
 
@@ -370,7 +634,7 @@ nav{
     }
 }
 
-@media(max-width:1023px){
+@media(max-width:1113px){
     body{
         font-size: 12px;
     }
