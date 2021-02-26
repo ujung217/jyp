@@ -548,7 +548,7 @@ nav{
    }
    .sec-03-recent{
        width: 49%;
-       height: 32em;
+       height: 31em;
    }
    .sec-03-recent img{
        width: 100%;
@@ -576,6 +576,7 @@ nav{
     }
 
     /* section02 */
+    
     #section02 .col-5{
         width: 100%;
     }
