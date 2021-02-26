@@ -635,7 +635,7 @@ nav{
 
     /* section02 */
     #section02 .col-5{
-        width: 100%;
+        width: 100% !important;
     }
     .section02{
         padding: 1em 0;
