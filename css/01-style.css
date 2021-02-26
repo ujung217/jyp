@@ -530,7 +530,7 @@ nav{
        height: 24em;
    }
    .sec-03-youtube h3{
-       font-size: 1em;
+       font-size: 1.5em;
    }
    
    .sec-03-instargram01{
@@ -540,7 +540,7 @@ nav{
        height: 24em;
    }
    .sec-03-instargram01 p, .sec-03-instargram02 p{
-       font-size: 1em;
+       font-size: 2em;
    }
    
    .sec-03-recent-content{
@@ -563,7 +563,7 @@ nav{
        margin-top: 0.5em;
    }
    .sec-03-recent h3{
-       font-size: 1em;
+       font-size: 1.5em;
    }
 }
 
